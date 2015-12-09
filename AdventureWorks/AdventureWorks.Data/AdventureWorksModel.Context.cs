@@ -13,9 +13,9 @@ namespace AdventureWorks.Data
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class AdventureWorksConnectionString : DbContext
+    public partial class AdventureWorksContext : DbContext
     {
-        public AdventureWorksConnectionString()
+        public AdventureWorksContext()
             : base("name=AdventureWorksConnectionString")
         {
         }
